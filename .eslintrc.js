@@ -1,0 +1,28 @@
+module.exports = {
+  root: true,
+  extends: '@react-native-community',
+  rules: {
+    'react/jsx-filename-extension': [1, {extensions: ['.js', '.jsx']}],
+    'no-restricted-syntax': [
+      'error',
+      'FunctionExpression',
+      'WithStatement',
+      "BinaryExpression[operator='in']",
+    ],
+    'jsx-a11y/click-events-have-key-events': 'off',
+    'jsx-a11y/control-has-associated-label': 'off',
+    'jsx-a11y/label-has-associated-control': 'off',
+    'jsx-a11y/interactive-supports-focus': 'off',
+    'import/prefer-default-export': 'off',
+    'import/no-unresolved': 'off',
+    'react/jsx-props-no-spreading': 'off',
+    'react/destructuring-assignment': 0,
+    'no-console': ['warn', {allow: ['clear', 'info', 'error']}],
+    'react/prop-types': [1, {ignore: ['children']}],
+    'no-unused-vars': 'warn',
+    'react/self-closing-comp': 'warn',
+    'prettier/prettier': 'warn',
+    'react/no-array-index-key': 'off',
+    'jsx-a11y/anchor-is-valid': 'off',
+  },
+};
