@@ -17,6 +17,7 @@ Not require environment variables.
 After clone this project you should install the npm packages and bower packages.
 
     npm install
+    react-native run-android (for android)
 
 To run the app you should use this command.
 
